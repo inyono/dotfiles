@@ -1,0 +1,22 @@
+[core]
+  # Global .gitignore
+  excludesfile = ~/.gitignore_global
+  # Use Atom for commit messages
+  editor = atom --wait
+# Use Kaleidoscope for diffs and merges
+[difftool "Kaleidoscope"]
+  cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+[diff]
+  tool = Kaleidoscope
+[difftool]
+  prompt = false
+[mergetool "Kaleidoscope"]
+  cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+  trustexitcode = true
+[merge]
+  tool = Kaleidoscope
+[mergetool]
+  prompt = false
+[include]
+  # Include private configuration
+  path = .gitconfig_private
