@@ -27,3 +27,4 @@ More information: [Using GNU Stow to Manage Your Dotfiles](http://brandon.inverg
 ## thanks
 
 * [cowboy/sudo-keepalive-example.sh](https://gist.github.com/cowboy/3118588)
+* [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles)
