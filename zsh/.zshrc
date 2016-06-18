@@ -16,6 +16,7 @@ export GOPATH="$HOME/Projects/go"
 export ANDROID_HOME="$HOME/Library/Android/sdk"
 export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH"
 
+export PATH="$HOME/.rvm/bin:$PATH"
 export PATH="/usr/texbin:$PATH"
 export PATH="/sbin:$PATH"
 export PATH="/bin:$PATH"
@@ -26,7 +27,6 @@ export PATH="/usr/local/bin:$PATH"
 export PATH="$HOME/.cabal/bin:$PATH"
 export PATH="$HOME/pear/bin:$PATH"
 export PATH="$HOME/bin:$PATH"
-export PATH="$HOME/.rbenv/bin:$PATH"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -35,14 +35,9 @@ export LC_ALL=en_US.UTF-8
 
 # Aliases
 alias git=hub
-alias t=task
 
-# rbenv
-eval "$(rbenv init -)"
-
-# NVM
-export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
+# RVM
+source ~/.rvm/scripts/rvm
 
 # iTerm Shell Integration
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
