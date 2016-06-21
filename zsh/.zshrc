@@ -16,7 +16,6 @@ export GOPATH="$HOME/Projects/go"
 export ANDROID_HOME="$HOME/Library/Android/sdk"
 export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH"
 
-export PATH="$HOME/.rvm/bin:$PATH"
 export PATH="/usr/texbin:$PATH"
 export PATH="/sbin:$PATH"
 export PATH="/bin:$PATH"
@@ -27,6 +26,7 @@ export PATH="/usr/local/bin:$PATH"
 export PATH="$HOME/.cabal/bin:$PATH"
 export PATH="$HOME/pear/bin:$PATH"
 export PATH="$HOME/bin:$PATH"
+export PATH="$HOME/.rvm/bin:$PATH"
 
 source $ZSH/oh-my-zsh.sh
 
