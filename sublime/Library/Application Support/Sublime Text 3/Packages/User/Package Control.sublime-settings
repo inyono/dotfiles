@@ -6,13 +6,14 @@
 	"installed_packages":
 	[
 		"Babel",
-		"Color Highlighter",
 		"Dracula Color Scheme",
 		"EditorConfig",
-		"GitGutter",
 		"Package Control",
 		"PHP-Twig",
+		"PureScript",
 		"Sass",
+		"Select Quoted",
+		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
 		"Theme - Spacegray"
